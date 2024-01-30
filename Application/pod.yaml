@@ -31,7 +31,7 @@ metadata:
   name: httpd
 spec:
   containers:
-  - image: httpd
+  - image: httpd:testing
     name: httpd
     ports:
     - containerPort: 80
